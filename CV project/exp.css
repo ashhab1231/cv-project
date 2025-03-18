@@ -1,0 +1,146 @@
+.center {
+  text-align: left;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0px;
+  display: flex;
+  font-size: x-large;
+}
+
+nav ul li:hover {
+  margin: 0 5px;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: rgb(198, 79, 79);
+}
+
+.set-m1 {
+  align-items: center;
+  margin-left: 45%;
+  margin-top: 5%;
+}
+
+.social{
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: blue;
+  font-size: xx-large;
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.top img {
+  height: 70px;
+  margin-left: 0%;
+}
+
+.top {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: #24262b;
+}
+
+.footer-col .social-links a {
+  display: inline-block;
+  height: 65px;
+  width: 90px;
+  background-color: rgb(198, 79, 79);
+  margin: 5px 15px 15px 5px;
+  text-align: center;
+  line-height: 60px;
+  color: #ffffff;
+  transition: all 0.5s ease;
+  font-family: sans-serif;
+  font-size: x-large;
+  border-radius: 25%;
+  position:;
+}
+
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: white;
+  text-decoration: underline;
+  text-decoration-color: silver;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
+
+.V1:hover {
+  background-color: transparent;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: rgb(198, 79, 79);
+}
+
+.V1 {
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: x-large;
+  
+  
+}
+
+.v1 {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  background-color: #ffffff;
+  font-size: xx-large;
+}
+
+.social-links {
+  text-decoration: ;
+  color: black;
+  text-decoration-color: blue;
+  
+}
