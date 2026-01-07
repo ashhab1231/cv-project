@@ -1,1 +1,0 @@
-prompt("do you wish to continue")
