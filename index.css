@@ -1,0 +1,212 @@
+/* =========================
+   RESET & BASE
+========================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* =========================
+   HEADER & NAVBAR
+========================= */
+header {
+  background-color: #f5f5f5;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+}
+
+.top img {
+  height: 60px;
+}
+
+/* NAV */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: large;
+  color: black;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+  text-decoration-color: blue;
+  color: rgb(198, 79, 79);
+}
+
+/* DARK MODE BUTTON */
+#themeToggle {
+  padding: 8px 16px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  background: linear-gradient(45deg, #e00b8b, #fa4b00);
+  color: white;
+  font-weight: bold;
+}
+
+/* =========================
+   HERO SECTION
+========================= */
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.set-m1 h4 {
+  font-weight: normal;
+}
+
+.set-m1 h1 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+/* DOWNLOAD BUTTON */
+.b1 {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #e00b8b, #fa4b00);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.b1:hover {
+  transform: scale(1.1);
+}
+
+/* =========================
+   SKILLS SECTION
+========================= */
+.skills {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.tech {
+  font-size: xx-large;
+  text-decoration: underline;
+  text-decoration-color: blue;
+  margin-bottom: 30px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 25px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.skill-img {
+  height: 90px;
+  width: 90px;
+  transition: 0.3s ease;
+}
+
+.skill-img:hover {
+  transform: scale(1.2);
+}
+
+/* GIF */
+#gif {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/* =========================
+   SOCIAL SECTION
+========================= */
+.social-title {
+  text-align: center;
+  font-size: x-large;
+  margin: 30px 0;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer {
+  background-color: #24262b;
+  padding: 40px 20px;
+}
+
+.container {
+  text-align: center;
+}
+
+.social-links a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 18px;
+  background-color: rgb(198, 79, 79);
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.social-links a:hover {
+  background-color: white;
+  color: #24262b;
+}
+
+/* =========================
+   DARK MODE
+========================= */
+.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #1e1e1e;
+}
+
+.dark-mode .skills {
+  background-color: #1e1e1e;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+@media (max-width: 768px) {
+  .top {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .set-m1 h1 {
+    font-size: 28px;
+  }
+}
